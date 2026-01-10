@@ -22,9 +22,11 @@ header{
 
 footer{
   margin: 0;
+  background-color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 480px) {
 footer{
+  background-color: rgb(255, 255, 255);
 }
 }
 
@@ -50,7 +52,7 @@ footer{
 
 .site-header img {
   margin: 0 auto;
-  width: 12%;
+  width: 15%;
 }
 @media screen and (max-width: 480px) {
 .site-header img {
@@ -68,7 +70,7 @@ footer{
 a.menubt {
   font-size: 0.75em;
   text-decoration: none;
-  color: #b88884;
+  color:rgb(192, 116, 157);
   padding-left: 3px;
   padding-right: 15px;
   background: transparent;
@@ -79,7 +81,7 @@ a.menubt {
 a.menubt:hover{
   font-size: 0.75em;
   text-decoration: none;
-  color: #55295b;
+  color: rgb(255, 141, 119);
   padding-left: 3px;
   padding-right: 15px;
   background: transparent;
@@ -95,7 +97,7 @@ a.menubt:hover{
 a.menubt {
   font-size: 6px;
   text-decoration: none;
-  color: #b88884;
+  color: rgb(192, 116, 157);
   padding-left: 2px;
   padding-right: 8px;
   background: transparent;
@@ -106,7 +108,7 @@ a.menubt {
 a.menubt:hover{
   font-size: 6px;
   text-decoration: none;
-  color: #55295b;
+  color: rgb(255, 141, 119);
   padding-left: 2px;
   padding-right: 8px;
   background: transparent;
@@ -181,15 +183,15 @@ a.menubt:hover{
 
 
 .content1{
-  padding-top: 800px;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-top: 500px;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 5%;
   font-family: serif;
 }
 @media screen and (max-width: 480px) {
 .content1{
-  top: 0;
+  padding-top: 500px;
   font-family: serif;
 }
 }
@@ -212,29 +214,24 @@ a.menubt:hover{
 
 .box{
   z-index: 4;
-  top: 0;
-  width: 100%;
-  position:relative;
+  padding-top: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media screen and (max-width: 480px) {
 .box{
   z-index: 4;
-  top: 0;
-  position:relative; 
+  padding-top: 30px;
 }
 }
 
 .box img {
   top: 0;
-  padding-top: 45px;
-  padding-left: 10%;
-  padding-right: 10%;
   width: 100%;
 }
 @media screen and (max-width: 480px) {
 .box img {
   top: 0;
-  padding-top: 25px;
   width: 100%;
 }
 }
@@ -255,73 +252,9 @@ a.menubt:hover{
   padding-right:2%;
 }
 
-.content2 {
-  background-color: rgb(255, 255, 255);
-  padding-top: 30px;
-  padding-bottom: 15px;
-  padding-left: 15%;
-  padding-right: 15%;
-  text-align: center;
-  font-size: 1.5em;
-  font-family: serif;
-  line-height: 2;
-  text-shadow: 7px 10px 2px #e8d3d1;;
-  color: dimgray;
-}
-@media screen and (max-width: 480px) {
-.content2 {
-  background-color: rgb(255, 255, 255);
-  padding-top: 15px;
-  padding-bottom: 5px;
-  padding-left: 12%;
-  padding-right: 12%;
-  text-align: center;
-  font-size: 1em;
-  font-family: serif;
-  line-height: 2;
-  text-shadow: 7px 3px 2px #e8d3d1;;
-  color: dimgray;
-}
-}
-.content3 {
-  background-color: rgb(255, 255, 255);
-  padding-top: 15px;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 20px;
-  text-align: center;
-}
-@media screen and (max-width: 480px) {
-.content3 {
-  background-color: #fdeff2;
-  padding-top: 15px;
-  padding-left: 12%;
-  padding-right: 12%;
-  padding-bottom: 20px;
-  text-align: center;
-}
-}
-.content3 p {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-size: 1em;
-  font-family: serif;
-  line-height: 2;
-  color: dimgray;
-}
-@media screen and (max-width: 480px) {
-.content3 p {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  font-size: 8px;
-  font-family: serif;
-  line-height: 2;
-  color: dimgray;
-}
-}
-
 .content_menu {
-  padding-top: 15px;
+  position:relative;
+  padding-top: 500px;
   padding-bottom: 15px;
   padding-left: 12%;
   padding-right: 12%;
@@ -332,8 +265,8 @@ a.menubt:hover{
 .content_menu {
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 0.6em;
   font-family: serif;
 }
