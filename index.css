@@ -1,4 +1,4 @@
-@charset="UTF-8";
+@charset "UTF-8";
 
 body {
   margin: 0;
@@ -14,22 +14,17 @@ body {
 
 header {
   top: 0;
-  margin: 0;
-  
 }
 @media screen and (max-width: 480px) {
-header {
+header{
 }
 }
 
 footer{
   margin: 0;
-  padding-top:15px;
-  padding-bottom: 5px;
-  
 }
 @media screen and (max-width: 480px) {
-footer {
+footer{
 }
 }
 
@@ -121,8 +116,74 @@ a.menubt:hover{
 }
 
 
+.container{
+  position:relative;
+}
+
+.slide1{
+  opacity: 0;
+  position: absolute; 
+  animation: 12s infinite anime1
+} 
+.slide2{
+  opacity: 0;
+  position: absolute;
+  animation: 12s infinite anime2;
+}  
+@keyframes anime1{
+  0% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+@keyframes anime2{
+  0% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.slide1 img {
+  width: 50%;  
+}
+.slide2 img {
+  width: 50%;
+}  
+
+
 .content1{
-  top: 0;
+  padding-top: 800px;
+  padding-left: 15%;
+  padding-right: 15%;
   padding-bottom: 5%;
   font-family: serif;
 }
@@ -134,7 +195,6 @@ a.menubt:hover{
 }
 
 .fadeIn{
-  top: 0;
   animation-name:fadeInAnime;
   animation-duration:5.5s;
   animation-fill-mode:forwards;
@@ -166,13 +226,15 @@ a.menubt:hover{
 
 .box img {
   top: 0;
-  padding-top: 35px;
+  padding-top: 45px;
+  padding-left: 10%;
+  padding-right: 10%;
   width: 100%;
 }
 @media screen and (max-width: 480px) {
 .box img {
   top: 0;
-  padding-top: 35px;
+  padding-top: 25px;
   width: 100%;
 }
 }
