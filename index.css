@@ -57,7 +57,7 @@ footer{
 @media screen and (max-width: 480px) {
 .site-header img {
   margin: 0 auto;
-  width: 20%;
+  width: 25%;
   text-align: center;
 }
 }
@@ -91,11 +91,11 @@ a.menubt:hover{
 @media screen and (max-width: 480px) {
 .menu {
   text-align: left;
-  font-size: 0.5em;
+  font-size: 0.75em;
   text-decoration: none;
 }
 a.menubt {
-  font-size: 6px;
+  font-size: 8px;
   text-decoration: none;
   color: rgb(192, 116, 157);
   padding-left: 2px;
@@ -106,7 +106,7 @@ a.menubt {
   font-family: serif;
 }
 a.menubt:hover{
-  font-size: 6px;
+  font-size: 8px;
   text-decoration: none;
   color: rgb(255, 141, 119);
   padding-left: 2px;
@@ -221,7 +221,7 @@ a.menubt:hover{
 @media screen and (max-width: 480px) {
 .box{
   z-index: 4;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 }
 
@@ -287,6 +287,12 @@ a.menubt:hover{
   line-height: 20px;
 }
 
+@media screen and (max-width: 480px) {
+  .menulist {
+  font-size: 0.6em;
+  line-height: 20px;
+}
+}
 .content5{
   padding-top: 50px;
   display: flex;
@@ -298,7 +304,7 @@ a.menubt:hover{
   justify-content: center;
   padding: 5px;
   color: dimgray;
-  font-size: 0.625em;
+  font-size: 0.6em;
   font-family: serif;
 }
 
