@@ -30,6 +30,12 @@ footer{
 }
 }
 
+.pc { display: block !important; }
+.sp { display: none !important; }
+@media only screen and (max-width: 750px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
 
 .site-header {
   top: 0;
@@ -214,9 +220,7 @@ a.menubt:hover{
 
 .box{
   z-index: 4;
-  padding-top: 60px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 65px;
 }
 @media screen and (max-width: 480px) {
 .box{
@@ -254,10 +258,10 @@ a.menubt:hover{
 
 .content_menu {
   position:relative;
-  padding-top: 500px;
+  padding-top: 100px;
   padding-bottom: 15px;
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: 0.8em;
   font-family: serif;
 }
@@ -265,8 +269,8 @@ a.menubt:hover{
 .content_menu {
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: 0.6em;
   font-family: serif;
 }
@@ -294,7 +298,7 @@ a.menubt:hover{
 }
 }
 .content5{
-  padding-top: 50px;
+  padding-top: 150px;
   display: flex;
   justify-content: center;
   font-family: serif;
@@ -302,7 +306,7 @@ a.menubt:hover{
 .content5 p {
   display: flex;
   justify-content: center;
-  padding: 5px;
+  padding: 30px;
   color: dimgray;
   font-size: 0.6em;
   font-family: serif;
