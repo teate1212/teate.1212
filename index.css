@@ -2,31 +2,33 @@
 
 body {
   margin: 0;
-  background-color: rgb(255, 255, 255);
   
 }
 @media screen and (max-width: 480px) {
 body {
   margin: 0;
-  background-color: rgb(255, 255, 255);
 }
 }
 
 header {
   top: 0;
+  font-family: serif;
+  color: rgb(223,125,139);
 }
 @media screen and (max-width: 480px) {
 header{
+  font-family: serif;
+  color: rgb(223,125,139);
 }
 }
 
 footer{
   margin: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(229,137,142, 0.7);
 }
 @media screen and (max-width: 480px) {
 footer{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(229,137,142, 0.7);
 }
 }
 
@@ -40,7 +42,7 @@ footer{
 .site-header {
   top: 0;
   z-index: 5;
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: rgb(255,255,255, 0.5);
   width: 100%;
   padding-bottom: 3px;
   position: fixed;
@@ -49,7 +51,7 @@ footer{
 .site-header {
   top: 0;
   z-index: 5;
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: rgb(255,255,255, 0.5);
   width: 100%;
   padding-bottom: 3px;
   position: fixed;
@@ -70,40 +72,40 @@ footer{
 
 .menu {
   font-size: 0.75em;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
 }
 a.menubt {
-  font-size: 0.75em;
+  font-size: 1.5em;
   text-decoration: none;
-  color:rgb(192, 116, 157);
-  padding-left: 3px;
-  padding-right: 15px;
+  color:rgb(223,125,139);
+  padding-left: 30px;
+  padding-right: 30px;
   background: transparent;
   text-align: center;
   transition: all  0.5s ease; 
   font-family: serif; 
 }
 a.menubt:hover{
-  font-size: 0.75em;
+  font-size: 1.5em;
   text-decoration: none;
-  color: rgb(255, 141, 119);
-  padding-left: 3px;
-  padding-right: 15px;
+  color: rgb(223,125,139);
+  padding-left: 30px;
+  padding-right: 30px;
   background: transparent;
   text-align: center;
   font-family: serif;
 }
 @media screen and (max-width: 480px) {
 .menu {
-  text-align: left;
+  text-align: center;
   font-size: 0.75em;
   text-decoration: none;
 }
 a.menubt {
   font-size: 8px;
   text-decoration: none;
-  color: rgb(192, 116, 157);
+  color: rgb(223,125,139);
   padding-left: 2px;
   padding-right: 8px;
   background: transparent;
@@ -114,7 +116,7 @@ a.menubt {
 a.menubt:hover{
   font-size: 8px;
   text-decoration: none;
-  color: rgb(255, 141, 119);
+  color: rgb(223,125,139);
   padding-left: 2px;
   padding-right: 8px;
   background: transparent;
@@ -189,7 +191,7 @@ a.menubt:hover{
 
 
 .content1{
-  padding-top: 500px;
+  padding-top: 150px;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
@@ -197,7 +199,7 @@ a.menubt:hover{
 }
 @media screen and (max-width: 480px) {
 .content1{
-  padding-top: 500px;
+  padding-top: 100px;
   font-family: serif;
 }
 }
@@ -220,12 +222,12 @@ a.menubt:hover{
 
 .box{
   z-index: 4;
-  padding-top: 65px;
+  padding-top: 130px;
 }
 @media screen and (max-width: 480px) {
 .box{
   z-index: 4;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 }
 
@@ -297,8 +299,16 @@ a.menubt:hover{
   line-height: 20px;
 }
 }
+
+.content4{
+}
+.content4 img {
+  width: 100%;
+}
+
 .content5{
-  padding-top: 150px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
   display: flex;
   justify-content: center;
   font-family: serif;
@@ -306,8 +316,8 @@ a.menubt:hover{
 .content5 p {
   display: flex;
   justify-content: center;
-  padding: 30px;
-  color: dimgray;
+  padding: 10px;
+  color: rgb(229,137,142);
   font-size: 0.6em;
   font-family: serif;
 }
