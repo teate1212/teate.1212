@@ -1,17 +1,14 @@
 @charset "UTF-8";
 
 body {
-  margin: 0;
-  
 }
 @media screen and (max-width: 480px) {
 body {
-  margin: 0;
 }
 }
 
 header {
-  top: 0;
+  height: auto;
   font-family: serif;
   color: rgb(223,125,139);
 }
@@ -44,7 +41,7 @@ footer{
   z-index: 5;
   background-color: rgb(255,255,255, 0.5);
   width: 100%;
-  padding-bottom: 3px;
+  padding-bottom: 1px;
   position: fixed;
 } 
 @media screen and (max-width: 480px) {
@@ -53,14 +50,13 @@ footer{
   z-index: 5;
   background-color: rgb(255,255,255, 0.5);
   width: 100%;
-  padding-bottom: 3px;
   position: fixed;
 }
 }
 
 .site-header img {
   margin: 0 auto;
-  width: 15%;
+  width: 17%;
 }
 @media screen and (max-width: 480px) {
 .site-header img {
@@ -99,7 +95,7 @@ a.menubt:hover{
 @media screen and (max-width: 480px) {
 .menu {
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.9em;
   text-decoration: none;
 }
 a.menubt {
@@ -222,12 +218,12 @@ a.menubt:hover{
 
 .box{
   z-index: 4;
-  padding-top: 130px;
+  padding-top: 140px;
 }
 @media screen and (max-width: 480px) {
 .box{
   z-index: 4;
-  padding-top: 80px;
+  padding-top: 85px;
 }
 }
 
@@ -320,5 +316,22 @@ a.menubt:hover{
   color: rgb(229,137,142);
   font-size: 0.6em;
   font-family: serif;
+}
+@media screen and (max-width: 480px) {
+.content5{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+}
+.content5 p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: rgb(229,137,142);
+  font-size: 7px;
+  font-family: serif;
+}
 }
 
