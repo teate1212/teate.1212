@@ -187,15 +187,13 @@ a.menubt:hover{
 
 
 .content1{
-  padding-top: 150px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 140px;
   padding-bottom: 5%;
   font-family: serif;
 }
 @media screen and (max-width: 480px) {
 .content1{
-  padding-top: 100px;
+  padding-top: 85px;
   font-family: serif;
 }
 }
@@ -218,12 +216,10 @@ a.menubt:hover{
 
 .box{
   z-index: 4;
-  padding-top: 140px;
 }
 @media screen and (max-width: 480px) {
 .box{
   z-index: 4;
-  padding-top: 85px;
 }
 }
 
