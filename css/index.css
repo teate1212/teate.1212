@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(2250,237,234);
+}
+@media screen and (max-width: 480px) {
+body {
+  background-color: rgb(250,237,234);
+}
+}
+
+header {
+  height: auto;
+  font-family: serif;
+  color: rgb(250,237,234);
+}
+@media screen and (max-width: 480px) {
+header{
+  font-family: serif;
+  color: rgb(2250,228,226,0.6);
+}
+}
+
+footer{
+  margin: 0;
+}
+@media screen and (max-width: 480px) {
+footer{
+}
+}
+
+.pc { display: block !important; }
+.sp { display: none !important; }
+@media only screen and (max-width: 750px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
+.site-header {
+  top: 0;
+  z-index: 5;
+  height: 150px;
+  background-color: rgb(250,237,234);
+  width: 100%;
+  padding-bottom: 7px;
+  position: fixed;
+} 
+@media screen and (max-width: 480px) {
+.site-header {
+  top: 0;
+  z-index: 5;
+  height: 104px;
+  background-color: rgb(250,237,234);
+  width: 100%;
+  position: fixed;
+}
+}
+
+.site-header img {
+  margin: 0 auto;
+  width: 17%;
+}
+@media screen and (max-width: 480px) {
+.site-header img {
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+}
+}
+
+.menu {
+  font-size: 0.75em;
+  color:rgb(229,78,92);
+  height: 150px;
+  text-align: center;
+  text-decoration: none;
+}
+a.menubt {
+  font-size: 1.25em;
+  height: 50px;
+  text-decoration: none;
+  color:rgb(229,78,92);
+  padding-left: 30px;
+  padding-right: 30px;
+  background: transparent;
+  text-align: center;
+  transition: all  0.5s ease; 
+  font-family: serif; 
+}
+a.menubt:hover{
+  font-size: 1.25em;
+  text-decoration: none;
+  color: rgb(229,78,92);
+  padding-left: 30px;
+  padding-right: 30px;
+  background: transparent;
+  text-align: center;
+  font-family: serif;
+}
+@media screen and (max-width: 480px) {
+.menu {
+  color:rgb(229,78,92);
+  text-align: center;
+  font-size: 6px;
+  text-decoration: none;
+}
+a.menubt {
+  font-size: 8px;
+  text-decoration: none;
+  color: rgb(229,78,92);
+  padding-left: 2px;
+  padding-right: 8px;
+  background: transparent;
+  text-align: center;
+  transition: all  0.5s ease;  
+  font-family: serif;
+}
+a.menubt:hover{
+  font-size: 8px;
+  text-decoration: none;
+  color: rgb(229,78,92);
+  padding-left: 2px;
+  padding-right: 8px;
+  background: transparent;
+  text-align: center;
+  font-family: serif;
+}
+}
+
+
+.container{
+  position:relative;
+}
+
+.slide1{
+  opacity: 0;
+  position: absolute; 
+  animation: 12s infinite anime1
+} 
+.slide2{
+  opacity: 0;
+  position: absolute;
+  animation: 12s infinite anime2;
+}  
+@keyframes anime1{
+  0% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+@keyframes anime2{
+  0% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.slide1 img {
+  width: 50%;  
+}
+.slide2 img {
+  width: 50%;
+}  
+
+
+.content1{
+  padding-top: 140px;
+  font-family: serif;
+  
+}
+@media screen and (max-width: 480px) {
+.content1{
+  padding-top: 85px;
+  font-family: serif;
+}
+}
+
+.fadeIn{
+  animation-name:fadeInAnime;
+  animation-duration:5.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+@keyframes fadeInAnime{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.box{
+  z-index: 4;
+}
+@media screen and (max-width: 480px) {
+.box{
+  z-index: 4;
+}
+}
+
+.box img {
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+.box img {
+  top: 0;
+  width: 100%;
+}
+}
+
+.content2{
+  background-color: rgb(250,237,234);
+  padding-top: 10px;
+  font-family: serif;
+}
+@media screen and (max-width: 480px) {
+.content2{
+  padding-top: 10px;
+  font-family: serif;
+}
+}
+.content2 img {
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+.content2 img {
+  width: 100%;
+}
+}
+
+.content4{
+}
+.content4 img {
+  width: 100%;
+}
+
+.content5{
+  background-color: rgb(250,237,234);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+}
+.content5 p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: rgb(229,78,92);
+  font-size: 0.6em;
+  font-family: serif;
+}
+@media screen and (max-width: 480px) {
+.content5{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+}
+.content5 p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 7px;
+  font-family: serif;
+}
+}
+
