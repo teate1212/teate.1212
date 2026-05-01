@@ -26,6 +26,7 @@ footer{
 }
 @media screen and (max-width: 480px) {
 footer{
+  margin: 0;
 }
 }
 
@@ -39,10 +40,9 @@ footer{
 .site-header {
   top: 0;
   z-index: 5;
-  height: 150px;
   background-color: rgb(250,237,234);
   width: 100%;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
   position: fixed;
 } 
 @media screen and (max-width: 480px) {
@@ -71,7 +71,6 @@ footer{
 .menu {
   font-size: 0.75em;
   color:rgb(229,78,92);
-  height: 150px;
   text-align: center;
   text-decoration: none;
 }
@@ -126,71 +125,6 @@ a.menubt:hover{
   font-family: serif;
 }
 }
-
-
-.container{
-  position:relative;
-}
-
-.slide1{
-  opacity: 0;
-  position: absolute; 
-  animation: 12s infinite anime1
-} 
-.slide2{
-  opacity: 0;
-  position: absolute;
-  animation: 12s infinite anime2;
-}  
-@keyframes anime1{
-  0% {
-    opacity: 0;
-  }
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-  
-}
-@keyframes anime2{
-  0% {
-    opacity: 0;
-  }
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.slide1 img {
-  width: 50%;  
-}
-.slide2 img {
-  width: 50%;
-}  
-
 
 .content1{
   padding-top: 140px;
@@ -260,8 +194,30 @@ a.menubt:hover{
 }
 }
 
-.content4{
+.menu2 {
+  color:rgb(229,78,92);
+  display: flex;
+  text-align: center;
+  gap: 20px;
+  padding: 50px;
+  justify-content: space-around;
+  filter: drop-shadow(-10px 10px 10px rgba(160, 160, 160, 0.6));
 }
+menu2 img {
+  width: 80%;
+}
+@media screen and (max-width: 480px) {
+.menu2 {
+  color:rgb(229,78,92);
+  display: flex;
+  text-align: center;
+  gap: 2px;
+  padding: 15px;
+  justify-content: space-around;
+  filter: drop-shadow(-5px 5px 6px rgba(160, 160, 160, 0.6));
+}
+}
+
 .content4 img {
   width: 100%;
 }
@@ -292,8 +248,8 @@ a.menubt:hover{
   display: flex;
   justify-content: center;
   padding: 10px;
+  color: rgb(229,78,92);
   font-size: 7px;
   font-family: serif;
 }
 }
-
