@@ -319,6 +319,7 @@ a.menubt:hover{
 @media screen and (max-width: 480px) {
 .content3{
   background-color: rgb(255,241,241);
+  padding: 10px 30px;
   text-align: center;   
   display: flex;         /* 中身を横並びにする */
   justify-content: center; /* 全体を中央に寄せる（左右中央） */
@@ -327,11 +328,11 @@ a.menubt:hover{
 }
 }
 .content3 img {
-  width: 33%;
+  width: 100%;
 }
 @media screen and (max-width: 480px) {
 .content3 img{
-  width: 110px;
+  width: 100%;
 }
 }
 .content3 p {
