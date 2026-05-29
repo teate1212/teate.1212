@@ -401,7 +401,7 @@ a.menubt:hover{
 .menubox p {
   width: 100%;
   font-family:serif;
-  font-size: 9px;
+  font-size: 17px;
   text-align: center;
   color: rgb(255,255,255);
   position:absolute;
@@ -411,6 +411,14 @@ a.menubt:hover{
 }
 }
 
+.content4{
+  padding-top: 50px;
+}
+@media screen and (max-width: 480px) {
+.content4{
+  padding-top: 30px;
+}
+}
 .content4 img {
   width: 100%;
 }
