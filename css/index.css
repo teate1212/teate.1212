@@ -509,7 +509,7 @@ a.content6{
   background: transparent;
   transition: all  0.5s ease; 
 }
-a.content6 :hover{
+a.content6:hover{
   font-family:serif;
   font-size: 0.75em;
   letter-spacing: 0.1em;
