@@ -525,13 +525,13 @@ a.content6 p :hover{
 }
 }
 .content7 img {
-  background-color: rgb(102,102,102);
-  width: 50%;
+  background-color: rgb(255,241,241);
+  width: 65%;
   border-radius: 10px;
 }
 @media screen and (max-width: 480px) {
 .content7 img {
-  background-color: rgb(102,102,102);
+  background-color: rgb(255,241,241);
   width: 95%;
   border-radius: 10px;
 }
