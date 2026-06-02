@@ -466,14 +466,22 @@ a.menubt:hover{
   padding: 1px 25px;
 }
 }
+.content6 img {
+  width: 3%;
+}
+@media screen and (max-width: 480px) {
+.content6 img{
+  width: 3%;
+}
+}
 a.content6{
   background-color: rgb(255,241,241);
   font-family:serif;
   font-size: 1.25em;
-  margin: 10px 280px;
+  margin: 0px 280px;
   color: rgb(255,6,116);
   letter-spacing: 0.25em;
-  line-height: 3em;
+  line-height: 1em;
   text-align: left;
   background: transparent;
   transition: all  0.5s ease; 
@@ -482,10 +490,10 @@ a.content6:hover{
   background-color: rgb(255,241,241);
   font-family:serif;
   font-size: 1.25em;
-  margin: 10px 280px;
+  margin: 0px 280px;
   color: rgb(155,34,70);
   letter-spacing: 0.25em;
-  line-height: 3em;
+  line-height: 1em;
   text-align: left;
   background: transparent; 
 }
@@ -496,18 +504,18 @@ a.content6{
   letter-spacing: 0.1em;
   margin: 10px 25px;
   color: rgb(255,6,116);
-  line-height: 2em;
+  line-height: 1em;
   text-align: left;
   background: transparent;
   transition: all  0.5s ease; 
 }
-a.content6 p :hover{
+a.content6 :hover{
   font-family:serif;
   font-size: 0.75em;
   letter-spacing: 0.1em;
   margin: 10px 25px;
   color: rgb(155,34,70);
-  line-height: 2em;
+  line-height: 1em;
   text-align: left;
   background: transparent;
 }
