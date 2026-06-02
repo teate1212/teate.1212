@@ -103,7 +103,7 @@ a.menubt:hover{
   text-decoration: none;
 }
 a.menubt {
-  font-size: 10px;
+  font-size: 12px;
   text-decoration: none;
   color: rgb(155,34,70);
   padding-left: 2px;
@@ -114,7 +114,7 @@ a.menubt {
   font-family: serif;
 }
 a.menubt:hover{
-  font-size: 10px;
+  font-size: 12px;
   text-decoration: none;
   color: rgb(255,104,172);
   padding-left: 2px;
@@ -548,7 +548,7 @@ a.content6 p :hover{
 @media screen and (max-width: 480px) {
 .content7 p {
   font-family:serif;
-  font-size: 0.5em;
+  font-size: 0.75em;
   letter-spacing: 0.1em;
   color: rgb(64,34,15);
   line-height: 3em;
@@ -587,7 +587,7 @@ a.content6 p :hover{
 }
 
 .menu33{
-  margin: 30px 300px;
+  margin: 30px 350px;
   background-color: rgb(224,141,155);
   border: 5px solid rgb(224,141,155);
   border-collapse: separate;
@@ -597,10 +597,11 @@ a.content6 p :hover{
   font-family: serif;
   font-size: 1.25em;
   color: rgb(255,255,255);
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
 .menu33{
-  margin: 20px 50px;
+  margin: 20px 80px;
   background-color: rgb(224,141,155);
   border: 3px solid rgb(224,141,155);
   border-collapse: separate;
@@ -610,6 +611,7 @@ a.content6 p :hover{
   font-family: serif;
   font-size: 17px;
   color: rgb(255,255,255);
+  text-align: center;
 }
 }
 .menu33 th,tr{
@@ -617,12 +619,14 @@ a.content6 p :hover{
 
 }
 .menu33 img {
-  width: 45%;
+  width: 100%;
   border-radius: 10px;
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
 .menu33 img {
-  width: 45%;
+  width: 100%;
   border-radius: 12px;
+  text-align: center;
 }
 }
