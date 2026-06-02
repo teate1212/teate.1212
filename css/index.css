@@ -103,7 +103,7 @@ a.menubt:hover{
   text-decoration: none;
 }
 a.menubt {
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   color: rgb(155,34,70);
   padding-left: 2px;
@@ -114,7 +114,7 @@ a.menubt {
   font-family: serif;
 }
 a.menubt:hover{
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   color: rgb(255,104,172);
   padding-left: 2px;
