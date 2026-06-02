@@ -411,12 +411,12 @@ a.menubt:hover{
 
 .content4{
   background-color: rgb(224,141,155);
-  margin-top: 50px;
+  margin-top: 80px;
 }
 @media screen and (max-width: 480px) {
 .content4{
   background-color: rgb(224,141,155);
-  margin-top: 30px;
+  margin-top: 50px;
 }
 }
 .content4 img {
@@ -534,7 +534,7 @@ a.content6:hover{
 }
 .content7 img {
   background-color: rgb(255,241,241);
-  width: 65%;
+  width: 55%;
   border-radius: 10px;
 }
 @media screen and (max-width: 480px) {
@@ -595,7 +595,7 @@ a.content6:hover{
 }
 
 .menu33{
-  margin: 30px 350px;
+  margin: 30px 450px;
   background-color: rgb(224,141,155);
   border: 5px solid rgb(224,141,155);
   border-collapse: separate;
