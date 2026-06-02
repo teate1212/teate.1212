@@ -556,7 +556,7 @@ a.content6:hover{
 @media screen and (max-width: 480px) {
 .content7 p {
   font-family:serif;
-  font-size: 0.9em;
+  font-size: 0.85em;
   letter-spacing: 0.1em;
   color: rgb(64,34,15);
   line-height: 3em;
