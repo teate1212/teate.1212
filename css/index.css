@@ -500,7 +500,7 @@ a.content6:hover{
 @media screen and (max-width: 480px) {
 a.content6{
   font-family:serif;
-  font-size: 0.75em;
+  font-size: 1em;
   letter-spacing: 0.1em;
   margin: 10px 25px;
   color: rgb(255,6,116);
@@ -511,7 +511,7 @@ a.content6{
 }
 a.content6:hover{
   font-family:serif;
-  font-size: 0.75em;
+  font-size: 1em;
   letter-spacing: 0.1em;
   margin: 10px 25px;
   color: rgb(155,34,70);
@@ -556,7 +556,7 @@ a.content6:hover{
 @media screen and (max-width: 480px) {
 .content7 p {
   font-family:serif;
-  font-size: 0.75em;
+  font-size: 0.9em;
   letter-spacing: 0.1em;
   color: rgb(64,34,15);
   line-height: 3em;
