@@ -49,7 +49,7 @@ footer{
 .site-header {
   top: 0;
   z-index: 5;
-  height: 104px;
+  height: 105px;
   background-color: rgb(255,241,241);
   width: 100%;
   position: fixed;
@@ -199,7 +199,6 @@ a.menubt:hover{
   position:relative;
 }
 }
-
 .box2 img {
   top: 0;
   width: 100%;
@@ -210,7 +209,6 @@ a.menubt:hover{
   width: 100%;
 }
 }
-
 .box2 p {
   width: 100%;
   padding-top: 6em;
@@ -229,7 +227,7 @@ a.menubt:hover{
 .box2 p {
   width: 100%;
   font-family:serif;
-  font-size: 0.5em;
+  font-size: 0.75em;
   letter-spacing: 0.1em;
   padding-top: 7em;
   text-align: center;
@@ -412,11 +410,13 @@ a.menubt:hover{
 }
 
 .content4{
-  padding-top: 50px;
+  background-color: rgb(224,141,155);
+  margin-top: 50px;
 }
 @media screen and (max-width: 480px) {
 .content4{
-  padding-top: 30px;
+  background-color: rgb(224,141,155);
+  margin-top: 30px;
 }
 }
 .content4 img {
@@ -571,5 +571,46 @@ a.content6 p :hover{
   color: rgb(64,34,15);
   line-height: 3em;
   text-align: left;
+}
+}
+
+.menu33{
+  margin: 30px 300px;
+  background-color: rgb(224,141,155);
+  border: 5px solid rgb(224,141,155);
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 20px;
+  font-family: serif;
+  font-size: 1.25em;
+  color: rgb(255,255,255);
+}
+@media screen and (max-width: 480px) {
+.menu33{
+  margin: 20px 50px;
+  background-color: rgb(224,141,155);
+  border: 3px solid rgb(224,141,155);
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 20px;
+  font-family: serif;
+  font-size: 17px;
+  color: rgb(255,255,255);
+}
+}
+.menu33 th,tr{
+  border: 7px solid rgb(255,241,241);
+
+}
+.menu33 img {
+  width: 45%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+.menu33 img {
+  width: 45%;
+  border-radius: 12px;
 }
 }
