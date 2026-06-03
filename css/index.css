@@ -615,7 +615,7 @@ a.content6:hover{
   border-collapse: separate;
   border-spacing: 0;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 8px;
   font-family: serif;
   font-size: 17px;
   color: rgb(255,255,255);
@@ -634,7 +634,7 @@ a.content6:hover{
 @media screen and (max-width: 480px) {
 .menu33 img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 8px;
   text-align: center;
 }
 }
