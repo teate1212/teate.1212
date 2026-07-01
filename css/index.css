@@ -49,22 +49,25 @@ footer{
 .site-header {
   top: 0;
   z-index: 5;
-  height: 105px;
+  height: 110px;
   background-color: rgb(255,241,241);
   width: 100%;
   position: fixed;
+  
 }
 }
 
 .site-header img {
   margin: 0 auto;
   width: 23%;
+  padding-bottom: 10px;
 }
 @media screen and (max-width: 480px) {
 .site-header img {
-  margin: 0 auto;
-  width: 45%;
-  text-align: center;
+  margin: 0 ;
+  width: 60%;
+  padding-bottom: 1px;
+  padding-right: 15px;
 }
 }
 
@@ -99,31 +102,144 @@ a.menubt:hover{
 @media screen and (max-width: 480px) {
 .menu {
   color:rgb(155,34,70);
-  text-align: center;
+  text-align: right;
   text-decoration: none;
 }
 a.menubt {
-  font-size: 14px;
-  text-decoration: none;
-  color: rgb(155,34,70);
-  padding-left: 2px;
-  padding-right: 8px;
-  background: transparent;
-  text-align: center;
-  transition: all  0.5s ease;  
-  font-family: serif;
+  display: none;
 }
 a.menubt:hover{
-  font-size: 14px;
-  text-decoration: none;
-  color: rgb(255,104,172);
-  padding-left: 2px;
-  padding-right: 8px;
-  background: transparent;
-  text-align: center;
-  font-family: serif;
+  display: none;
 }
 }
+
+
+#humberger {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  #humberger {
+  z-index: 8;
+  position: relative;
+  height: 0px;
+  width: 35px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+}
+#humberger div {
+}
+@media screen and (max-width: 480px) {
+#humberger div {
+  position: absolute;
+  left: 0px;
+  height: 1px;
+  width: 23px;
+  background-color: rgb(155,34,70);
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div:nth-of-type(1) {
+  bottom: 10px;
+}
+#humberger div:nth-of-type(2) {
+  bottom: 5px;
+}
+#humberger div:nth-of-type(3) {
+  bottom: 0;
+}
+}
+
+ul.ddmenu {
+}
+@media screen and (max-width: 480px) {
+ul.ddmenu {
+   background-color: rgb(255,241,241); 
+   padding-left: 35px;
+   padding-top: 0;
+}
+}
+
+
+ul.ddmenu li {
+   width: 25px;  
+   background-color: rgba(255, 255, 255, 0.3);        
+   list-style-type: none;
+   position: relative;  
+   top: 3px; 
+}
+
+ul.ddmenu a {
+   background-color: rgb(255,241,241);
+   color: rgb(155,34,70);
+   font-size: 12px; 
+   font-family:serif;             
+   line-height: 0px;               
+   text-decoration: none;           
+   display: block;
+   position: relative;
+}
+ul.ddmenu a:hover {
+   background-color:rgb(255,241,241);
+   position: relative;
+}
+@media screen and (max-width: 480px) { 
+ul.ddmenu a {
+   background-color: rgb(255,241,241);
+   color: rgb(155,34,70);
+   font-size: 12px; 
+   font-family:serif;             
+   line-height: 0px;               
+   text-decoration: none;           
+   display: block;
+   position: relative;
+}
+}
+@media screen and (max-width: 480px) { 
+ul.ddmenu a:hover {
+   background-color:rgb(255,241,241);
+   position: relative;
+}
+}
+
+ul.ddmenu ul {
+   padding: 0px 0px;
+   display: none;
+}
+
+ul.ddmenu ul {
+   display: none;       
+   margin: 0px;            
+   position: absolute; 
+}
+
+ul.ddmenu li:hover ul {
+   display: block;      
+}
+
+ul.ddmenu ul li {   
+   width: 171px; 
+   background-color: rgba(255, 255, 255, 0.3);              
+}
+
+ul.ddmenu ul li a {
+   background-color: rgba(255, 255, 255, 0.3);  
+   padding-left: 15px;
+   line-height: 55px;   
+   text-align: left;    
+   font-weight: normal;
+}
+ul.ddmenu ul li a:hover {   
+   background-color: rgb(255,241,241);
+   color: black;
+}
+
+
+
+
+
+
+
 
 .fadeIn{
   animation-name:fadeInAnime;
