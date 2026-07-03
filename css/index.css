@@ -49,7 +49,7 @@ footer{
 .site-header {
   top: 0;
   z-index: 5;
-  height: 110px;
+  height: 84px;
   background-color: rgb(255,241,241);
   width: 100%;
   position: fixed;
@@ -65,8 +65,9 @@ footer{
 @media screen and (max-width: 480px) {
 .site-header img {
   margin: 0 ;
-  width: 60%;
-  padding-bottom: 1px;
+  width: 43%;
+  padding-top: 5px;
+  padding-bottom: 0px;
   padding-right: 15px;
 }
 }
@@ -140,10 +141,10 @@ a.menubt:hover{
   box-sizing: border-box;
 }
 #humberger div:nth-of-type(1) {
-  bottom: 10px;
+  bottom: 12px;
 }
 #humberger div:nth-of-type(2) {
-  bottom: 5px;
+  bottom: 6px;
 }
 #humberger div:nth-of-type(3) {
   bottom: 0;
@@ -407,7 +408,7 @@ ul.ddmenu ul li a:hover {
 }
 @media screen and (max-width: 480px) {
 .content1{
-  padding-top: 85px;
+  padding-top: 60px;
   font-family: serif;
 }
 }
