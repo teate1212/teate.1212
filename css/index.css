@@ -237,10 +237,10 @@ ul.ddmenu li:hover ul {
 }
 ul.ddmenu ul li {   
    width: 171px; 
-   background-color: rgba(255, 255, 255, 0.3);              
+   background-color: rgba(255, 255, 255, 0.5);              
 }
 ul.ddmenu ul li a {
-   background-color: rgba(255, 255, 255, 0.3);  
+   background-color: rgba(255, 255, 255, 0.5);  
    padding-left: 15px;
    line-height: 55px;   
    text-align: left;    
@@ -589,7 +589,7 @@ a.content6:hover{
 @media screen and (max-width: 480px) {
 a.content6{
   font-family:serif;
-  font-size: 1em;
+  font-size: 15px;
   letter-spacing: 0.1em;
   margin: 10px 25px;
   color: rgb(255,6,116);
@@ -600,7 +600,7 @@ a.content6{
 }
 a.content6:hover{
   font-family:serif;
-  font-size: 1em;
+  font-size: 15px;
   letter-spacing: 0.1em;
   margin: 10px 25px;
   color: rgb(155,34,70);
