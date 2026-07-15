@@ -65,7 +65,7 @@ footer{
 @media screen and (max-width: 480px) {
 .site-header img {
   margin: 0 ;
-  width: 43%;
+  width: 38%;
   padding-top: 5px;
   padding-bottom: 0px;
   padding-right: 15px;
@@ -103,8 +103,9 @@ a.menubt:hover{
 @media screen and (max-width: 480px) {
 .menu {
   color:rgb(155,34,70);
-  text-align: right;
+  text-align: left;
   text-decoration: none;
+  width: 95%;
 }
 a.menubt {
   display: none;
@@ -133,12 +134,10 @@ a.menubt:hover{
 @media screen and (max-width: 480px) {
 #humberger div {
   position: absolute;
-  left: 0px;
-  height: 1px;
-  width: 23px;
+  margin-left: 310px;
   background-color: rgb(155,34,70);
-  display: inline-block;
-  box-sizing: border-box;
+  font-size: 10px;
+  font-weight: bold;
 }
 #humberger div:nth-of-type(1) {
   bottom: 12px;
@@ -156,58 +155,48 @@ ul.ddmenu {
 @media screen and (max-width: 480px) {
 ul.ddmenu {
    background-color: rgb(255,241,241); 
-   padding-left: 35px;
    padding-top: 0;
 }
 }
-
-
 ul.ddmenu li {
    width: 25px;  
    background-color: rgba(255, 255, 255, 0.3);        
    list-style-type: none;
-   position: relative;  
-   top: 3px; 
+   
 }
+ul.ddmenu a {
+   background-color: rgb(255,241,241);
+   color: rgb(155,34,70);
+   font-size: 12px; 
+   font-family:serif;             
+}
+ul.ddmenu a:hover {
+   background-color:rgb(255,241,241)
+}
+@media screen and (max-width: 480px) { 
+ul.ddmenu a {
+   background-color: rgb(255,241,241);
+   color: rgb(155,34,70);
+   font-size: 12px; 
+   font-family:serif;             
+   line-height: 0px;               
+   text-decoration: none;           
+   display: block;
+   position: relative;
+}
+}
+@media screen and (max-width: 480px) { 
+ul.ddmenu a:hover {
+   background-color:rgb(255,241,241,0.5);
+   color: rgb(255,6,116);
+   position: relative;
 
-ul.ddmenu a {
-   background-color: rgb(255,241,241);
-   color: rgb(155,34,70);
-   font-size: 12px; 
-   font-family:serif;             
-   line-height: 0px;               
-   text-decoration: none;           
-   display: block;
-   position: relative;
-}
-ul.ddmenu a:hover {
-   background-color:rgb(255,241,241);
-   position: relative;
-}
-@media screen and (max-width: 480px) { 
-ul.ddmenu a {
-   background-color: rgb(255,241,241);
-   color: rgb(155,34,70);
-   font-size: 12px; 
-   font-family:serif;             
-   line-height: 0px;               
-   text-decoration: none;           
-   display: block;
-   position: relative;
-}
-}
-@media screen and (max-width: 480px) { 
-ul.ddmenu a:hover {
-   background-color:rgb(255,241,241);
-   position: relative;
 }
 }
 
 ul.ddmenu ul {
-   padding: 0px 0px;
    display: none;
 }
-
 ul.ddmenu ul {
    display: none;       
    margin: 0px;            
@@ -231,8 +220,36 @@ ul.ddmenu ul li a {
    font-weight: normal;
 }
 ul.ddmenu ul li a:hover {   
-   background-color: rgb(255,241,241);
-   color: black;
+   background-color:rgb(255,241,241,0.5);
+   color: rgb(255,6,116);
+}
+
+@media screen and (max-width: 480px) { 
+ul.ddmenu ul {
+}
+ul.ddmenu ul {    
+   margin: 0px;            
+   position: absolute; 
+   padding-left: 230px;
+}
+ul.ddmenu li:hover ul {
+   display: block;      
+}
+ul.ddmenu ul li {   
+   width: 171px; 
+   background-color: rgba(255, 255, 255, 0.3);              
+}
+ul.ddmenu ul li a {
+   background-color: rgba(255, 255, 255, 0.3);  
+   padding-left: 15px;
+   line-height: 55px;   
+   text-align: left;    
+   font-weight: normal;
+}
+ul.ddmenu ul li a:hover {   
+   background-color:rgb(255,241,241,0.5);
+   color: rgb(255,6,116);
+}
 }
 
 
@@ -606,7 +623,7 @@ a.content6:hover{
 }
 .content7 img {
   background-color: rgb(255,241,241);
-  width: 55%;
+  width: 65%;
   border-radius: 10px;
 }
 @media screen and (max-width: 480px) {
