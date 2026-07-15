@@ -68,7 +68,7 @@ footer{
   width: 38%;
   padding-top: 5px;
   padding-bottom: 0px;
-  padding-right: 15px;
+  padding-right: clamp(16px, 4vw, 32px);
 }
 }
 
@@ -134,7 +134,7 @@ a.menubt:hover{
 @media screen and (max-width: 480px) {
 #humberger div {
   position: absolute;
-  margin-left: 310px;
+  margin-left: clamp(328px, 4vw, 336px);
   background-color: rgb(155,34,70);
   font-size: 10px;
   font-weight: bold;
