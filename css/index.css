@@ -252,13 +252,6 @@ ul.ddmenu ul li a:hover {
 }
 }
 
-
-
-
-
-
-
-
 .fadeIn{
   animation-name:fadeInAnime;
   animation-duration:5.5s;
@@ -323,55 +316,6 @@ ul.ddmenu ul li a:hover {
   transform: translate(-50%,-50%);
 }
 }
-.box2{
-  z-index: 4;
-  position:relative;
-}
-@media screen and (max-width: 480px) {
-.box2{
-  z-index: 4;
-  position:relative;
-}
-}
-.box2 img {
-  top: 0;
-  width: 100%;
-}
-@media screen and (max-width: 480px) {
-.box2 img {
-  top: 0;
-  width: 100%;
-}
-}
-.box2 p {
-  width: 100%;
-  padding-top: 6em;
-  font-family:serif;
-  font-size: 1em;
-  color: rgb(64,34,15);
-  letter-spacing: 0.25em;
-  line-height: 2em;
-  text-align: center;
-  position:absolute;
-  top: 39%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-@media screen and (max-width: 480px) {
-.box2 p {
-  width: 100%;
-  font-family:serif;
-  font-size: 0.75em;
-  letter-spacing: 0.1em;
-  padding-top: 7em;
-  text-align: center;
-  color: rgb(64,34,15);
-  position:absolute;
-  top: 43%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-}
 .box3{
   z-index: 4;
   position:relative;
@@ -400,6 +344,7 @@ ul.ddmenu ul li a:hover {
   font-size: 1.5em;
   color: rgb(255,255,255);
   text-align: center;
+  letter-spacing: 0.2em;
   position:absolute;
   top: 53%;
   left: 50%;
@@ -418,6 +363,57 @@ ul.ddmenu ul li a:hover {
   transform: translate(-50%,-50%);
 }
 }
+
+.text{
+  z-index: 4;
+  position:relative;
+}
+@media screen and (max-width: 480px) {
+.text{
+  z-index: 4;
+  position:relative;
+}
+}
+.text img {
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+.text img {
+  top: 0;
+  width: 100%;
+}
+}
+.text p {
+  width: 100%;
+  padding-top: 6em;
+  font-family:serif;
+  font-size: 1em;
+  color: rgb(64,34,15);
+  letter-spacing: 0.25em;
+  line-height: 2em;
+  text-align: center;
+  position:absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 480px) {
+.text p {
+  width: 100%;
+  font-family:serif;
+  font-size: 0.75em;
+  letter-spacing: 0.1em;
+  padding-top: 7em;
+  text-align: center;
+  color: rgb(64,34,15);
+  position:absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+}
+
 
 .content1{
   padding-top: 140px;
