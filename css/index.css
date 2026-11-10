@@ -228,7 +228,6 @@ ul.ddmenu ul {
 ul.ddmenu ul {    
    margin: 0px;            
    position: absolute; 
-   padding-left: 230px;
 }
 ul.ddmenu li:hover ul {
    display: block;      
